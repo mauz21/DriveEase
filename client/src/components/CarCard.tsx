@@ -23,7 +23,7 @@ export default function CarCard({ car }: { car: Car }) {
             <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider">{car.make}</p>
             <h3 className="font-display text-2xl font-bold">{car.model}</h3>
           </div>
-          <div className="flex items-center gap-1 rounded-md bg-yellow-100 px-2 py-1 text-xs font-bold text-yellow-700">
+          <div className="flex items-center gap-1 rounded-md bg-[#FFD700]/10 px-2 py-1 text-xs font-bold text-[#FFD700]">
             ★ {car.rating}
           </div>
         </div>
@@ -45,7 +45,7 @@ export default function CarCard({ car }: { car: Car }) {
         </div>
       </CardContent>
       <CardFooter>
-        <Button asChild className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90">
+        <Button asChild className="w-full bg-[#FFD700] text-black hover:bg-[#FFD700]/90">
           <Link href={`/cars/${car.id}`}>
             View Details <ArrowRight className="ml-2 h-4 w-4" />
           </Link>
