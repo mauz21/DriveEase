@@ -20,7 +20,7 @@ export default function Home() {
         {/* Unsplash luxury car image */}
         <div className="absolute inset-0">
           <img 
-            src="https://pixabay.com/get/g810e980a4e1f9d3c4641fadc718639cae6c608f8de3efde6134a326590c2f822898cbaa6eaeee640cb579917daadda02aa03b151af2745f9b3fe5d770e6970f5_1280.png" 
+            src="https://images.unsplash.com/photo-1503376763036-066120622c74?auto=format&fit=crop&q=80&w=2000" 
             alt="Luxury Car" 
             className="h-full w-full object-cover opacity-60"
           />
@@ -35,13 +35,13 @@ export default function Home() {
             className="max-w-2xl text-white"
           >
             <h1 className="font-display text-5xl font-bold leading-tight md:text-7xl">
-              Elevate Your <span className="text-primary">Journey</span>
+              Elevate Your <span className="text-[#FFD700]">Journey</span>
             </h1>
             <p className="mt-6 text-lg text-gray-300 md:text-xl">
               Experience the pinnacle of automotive engineering. Rent the world's most exclusive vehicles with or without a professional chauffeur.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-              <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
+              <Button asChild size="lg" className="bg-[#FFD700] text-black hover:bg-[#FFD700]/90">
                 <Link href="/cars">View Fleet</Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-white/20 bg-white/10 text-white hover:bg-white/20 hover:text-white backdrop-blur-sm">
