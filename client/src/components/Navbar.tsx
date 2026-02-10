@@ -30,9 +30,9 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
-        <Link href="/" className="flex items-center space-x-2">
-          <span className="font-display text-2xl font-bold tracking-tight">
-            Drive<span className="text-primary">Ease</span>
+        <Link href="/" className="flex items-center space-x-2 group">
+          <span className="font-display text-3xl font-bold tracking-tighter transition-all duration-300">
+            Drive<span className="text-[#FFD700] drop-shadow-[0_0_8px_rgba(255,215,0,0.4)]">Ease</span>
           </span>
         </Link>
 

@@ -34,17 +34,17 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="max-w-2xl text-white"
           >
-            <h1 className="font-display text-5xl font-bold leading-tight md:text-7xl">
-              Elevate Your <span className="text-[#FFD700]">Journey</span>
+            <h1 className="font-display text-5xl font-bold leading-tight md:text-7xl drop-shadow-2xl">
+              Elevate Your <span className="text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.5)]">Journey</span>
             </h1>
-            <p className="mt-6 text-lg text-gray-300 md:text-xl">
+            <p className="mt-6 text-lg text-gray-300 md:text-xl max-w-xl">
               Experience the pinnacle of automotive engineering. Rent the world's most exclusive vehicles with or without a professional chauffeur.
             </p>
-            <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-              <Button asChild size="lg" className="bg-[#FFD700] text-black hover:bg-[#FFD700]/90">
+            <div className="mt-10 flex flex-col gap-5 sm:flex-row">
+              <Button asChild size="lg" className="bg-[#FFD700] text-black hover:bg-[#FFD700]/90 transition-all duration-300 transform hover:scale-105 px-8 shadow-[0_0_20px_rgba(255,215,0,0.3)]">
                 <Link href="/cars">View Fleet</Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white/20 bg-white/10 text-white hover:bg-white/20 hover:text-white backdrop-blur-sm">
+              <Button asChild size="lg" variant="outline" className="border-[#FFD700]/30 bg-black/40 text-[#FFD700] hover:bg-[#FFD700]/10 hover:text-[#FFD700] backdrop-blur-md transition-all duration-300 px-8">
                 <Link href="/drivers">Hire a Chauffeur</Link>
               </Button>
             </div>
