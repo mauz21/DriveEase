@@ -14,16 +14,21 @@ DriveEase is a luxury-focused car rental and professional chauffeur service plat
 ## 📸 Project Showcase
 
 ### Premium Experience
+<img width="1903" height="3872" alt="image" src="https://github.com/user-attachments/assets/5c285962-f06b-4f40-9a84-08a3851308c4" />
+
 ![Luxury Concept](@assets/image_1770629807791.png)
 *Our vision for the ultimate luxury travel experience.*
 
 ### VIP Concierge System
-![Concierge Dashboard](@assets/image_1770629816203.png)
+
+<img width="949" height="440" alt="image" src="https://github.com/user-attachments/assets/926f6b54-30ab-47b6-8d68-81ce0d46255e" />
+<img width="959" height="433" alt="image" src="https://github.com/user-attachments/assets/b63657cd-1e2f-49af-a7b4-088edd0cf38d" />
+
+
 *Personalized assistance at your fingertips.*
 
 ### Rewards & Loyalty
-![Loyalty Program](@assets/image_1770629830465.png)
-*Exclusive benefits for our most valued clients.*
+
 
 ### Sustainability & Green Fleet
 ![Sustainability Tracker](@assets/image_1770629845343.png)
